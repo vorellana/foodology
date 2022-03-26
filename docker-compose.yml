@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+ backend:
+  container_name: deployBackend
+  restart: always
+  build: .
+  environment:
+   PORT_APP: 3000
+  ports:
+   - "3000:3000"
