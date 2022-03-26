@@ -38,7 +38,7 @@ const processListRestaurants = (foodologyBrands, restaurantsFound) => {
             positionSum += restaurant.position;
         })
         processedList.push({
-            id: brand.title,
+            id: brand.id,
             title: brand.title,
             visible: (restaurants.length > 0 ? 'Yes': 'No'),
             average_position: positionSum / restaurants.length
