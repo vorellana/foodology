@@ -31,7 +31,7 @@ cd foodology
 docker-compose up -d 
 ```
 Una vez finalizado el proceso de despliegue ya podemos utilizar la aplicación.
-Ahora el API se encuentra funcionando en el puerto 3000 y ya podemos acceder a las operación mediante la siguiente url:
+Ahora el API se encuentra funcionando en el puerto 3000 y ya podemos acceder a la operación mediante la siguiente url:
 ```sh
 # url
 http://localhost:3000/api-foodology/location
